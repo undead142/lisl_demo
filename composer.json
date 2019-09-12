@@ -1,0 +1,22 @@
+{
+    "name": "klisl/yii2-mytest",
+    "description": "Desc",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Andrei V. Berezhkov",
+            "email": "dead0343@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "klisl\\mytest\\": ""
+        }
+    }
+}
